@@ -1,0 +1,17 @@
+Steps for compilation and running simulation of avalon_mm_mst:
+
+Directory structure
+********************
+
+  dut_src   --> Avalon Slave RTL as DUT (in VHDL)
+  sv_src    --> SystemVerilog/UVM source code
+  exec_dir  --> Directory/folder to run simulation
+
+How to compile & run sim?
+*************************
+  1. cd exec_dir
+  2. source setup.sh
+  3. vsim -c -do rvra_run.do 
+
+Refer to README inside exec_dir for more
+

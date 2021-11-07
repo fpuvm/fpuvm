@@ -1,0 +1,14 @@
+Sim dir for Riviera-Pro
+***********************
+
+Make sure you sourced the setup.sh/setup.csh before running below commands
+
+
+To run in command line mode:
+
+  vsim -c -do rvra_run.do
+
+To run in GUI mode:
+
+  vsim  -do rvra_run.do
+

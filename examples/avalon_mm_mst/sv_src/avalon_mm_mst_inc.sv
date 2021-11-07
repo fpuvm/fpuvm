@@ -1,0 +1,12 @@
+`include "avalon_mm_xactn.sv"
+`include "avalon_mm_mst_driver.sv"
+`include "avalon_mm_mst_sequencer.sv"
+`include "avalon_mm_mst_monitor.sv"
+`include "avalon_mm_mst_sbrd.sv"
+`include "avalon_mm_mst_fcov_sub.sv"
+`include "avalon_mm_mst_agent.sv"
+`include "avalon_mm_mst_env.sv"
+`include "avalon_mm_mst_base_test.sv"
+`include "avalon_mm_mst_wr_rd_seq.sv"
+`include "avalon_mm_mst_wr_rd_test.sv"
+
